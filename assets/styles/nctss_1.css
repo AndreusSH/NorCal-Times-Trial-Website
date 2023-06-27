@@ -12,3 +12,11 @@
     color: white;
     font-size: 50px;
   }
+
+  h2{
+    text-align: center;
+    background-color: blue;
+    height: 40px;
+    margin-top: 0%;
+    color: aliceblue;
+  }
