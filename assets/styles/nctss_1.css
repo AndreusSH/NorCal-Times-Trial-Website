@@ -5,6 +5,15 @@
 
    }
 
+   img{
+    
+    position: absolute;
+    top: 450px;
+    right: 16px;
+    height: 150px;
+    width: 150px;
+   }
+
    h1 {
     position: absolute;
     top: 8px;
