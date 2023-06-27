@@ -1,7 +1,9 @@
 #background-img {
     
-    background-image: url("../images/Image1.png");
+    background-image: url("../images/AlternativeImage.jpg");
     height: 500px; /* You must set a specified height */
+    background-position: center;
+
 
    }
 
@@ -30,8 +32,23 @@
     color: aliceblue;
   }
 
+  p{
+    margin-left: 200px;
+  }
+
   ul {
     list-style-type: none; /* Remove bullets */
     padding: 0; /* Remove padding */
     margin: 0; /* Remove margins */
+  }
+
+  .column {
+    float: left;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+
+  .title{
+    font-size: larger;
+    font-weight: bold;
   }
