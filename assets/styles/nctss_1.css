@@ -1,4 +1,14 @@
-#background-image {
-    height: 200px;
+#background-img {
+    
     background-image: url("../images/Image1.png");
+    height: 500px; /* You must set a specified height */
+
    }
+
+   h1 {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    color: white;
+    font-size: 50px;
+  }
