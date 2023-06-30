@@ -1,0 +1,33 @@
+h1 {
+    top: 8px;
+    left: 16px;
+    font-size: 50px;
+    position: absolute;
+
+  }
+
+#background-img {
+    
+    background-image: url("../images/AlternativeImage.jpg");
+    height: 500px; /* You must set a specified height */
+    background-position: center;
+    margin-top: 100px;
+    
+
+   }
+
+   ul {
+    list-style-type: none; /* Remove bullets */
+
+    display:flex;  
+    list-style:none;
+    position: absolute;
+    top: 50px;
+    right: 16px;
+    height: 150px;
+    width: 150px;
+  }
+ul li{
+margin-left: auto;
+}
+
