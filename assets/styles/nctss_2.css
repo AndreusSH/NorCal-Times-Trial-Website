@@ -18,16 +18,35 @@ h1 {
 
    ul {
     list-style-type: none; /* Remove bullets */
-
     display:flex;  
     list-style:none;
     position: absolute;
     top: 50px;
     right: 16px;
-    height: 150px;
-    width: 150px;
+    color: white;
+   
   }
 ul li{
 margin-left: auto;
+
+}
+a:link {
+    text-decoration: none;
 }
 
+
+
+.button {
+    background-color: rgb(59, 59, 199);
+    border: none;
+    padding: 15px 32px;
+    
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  :target {
+    background-color: green;
+}
