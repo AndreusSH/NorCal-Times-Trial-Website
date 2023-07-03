@@ -1,0 +1,26 @@
+#background-img {
+    
+    background-image: url("../images/AlternativeImage.jpg");
+    height: 500px; /* You must set a specified height */
+    background-position: center;
+    margin-top: 100px;
+    
+
+   }
+
+   h1 {
+    top: 6px;
+    margin-left: 100px;
+    font-size: 50px;
+    position: absolute;
+
+  }
+
+  img{
+    
+    position: absolute;
+    top: 45px;
+    left: 40px;
+    height: 50px;
+    width: 50px;
+   }
