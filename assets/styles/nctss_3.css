@@ -24,3 +24,39 @@
     height: 50px;
     width: 50px;
    }
+
+   .button {
+    background-color: rgb(59, 59, 199);
+    border: solid;
+    border-radius: 10%;
+    padding: 15px 32px;
+    
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  :target {
+    background-color: green;
+}
+a{
+    color: aliceblue;
+   }
+
+   ul {
+    list-style-type: none; /* Remove bullets */
+    display:flex;  
+    list-style:none;
+    position: absolute;
+    top: 20px;
+    right: 40px;
+   
+  }
+ul li{
+margin-left: auto;
+
+}
+a:link {
+    text-decoration: none;
+}
