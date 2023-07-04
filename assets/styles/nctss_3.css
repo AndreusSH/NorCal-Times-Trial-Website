@@ -51,7 +51,7 @@ a{
     position: absolute;
     top: 20px;
     right: 40px;
-   
+    
   }
 ul li{
 margin-left: auto;
@@ -64,7 +64,9 @@ a:link {
 
 
 .column {
-  text-align: center;
+  text-align: left;
+  padding-left: 200px;
+  padding-right: 200px;
   }
 
 
@@ -81,8 +83,23 @@ h2{
 
 p{
     font-size: large;
+    line-height: 32px;
 }
 
 .italic{
   font-style: italic;
 }
+
+.bold{
+  font-weight: bold;
+}
+ol{
+  padding: 10px;
+}
+
+ol > li::marker {
+  font-weight: bold;
+}
+
+ 
+ 
