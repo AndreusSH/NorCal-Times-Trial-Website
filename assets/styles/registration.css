@@ -1,5 +1,5 @@
 
-
+ 
 
   input {
     border: 0;
@@ -9,21 +9,28 @@
     color: #ccc;
     margin-left: 10px;
     margin-right: 20px;
+     
           
   }
 
   .identity{
     display: flex; 
-    justify-content: center;
+     
   }
 
   .info{
     display: flex; 
-  
-    margin-left: 23.5em;
-
+     
 
   }
+
+  .gender{
+    display: flex; 
+  }
+  .gender input {
+    margin-top: 20px;
+}
+
 
   label{
     padding-top: 20px;
