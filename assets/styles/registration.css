@@ -1,0 +1,33 @@
+
+
+
+  input {
+    border: 0;
+    outline: 0;
+    border-bottom: 2px solid #03a8f45e;
+    font-size: 1.4rem;
+    color: #ccc;
+    margin-left: 10px;
+    margin-right: 20px;
+          
+  }
+
+  .identity{
+    display: flex; 
+    justify-content: center;
+  }
+
+  .info{
+    display: flex; 
+  
+    margin-left: 23.5em;
+
+
+  }
+
+  label{
+    padding-top: 20px;
+    padding-left: 20px;
+  
+    color: blue;
+  }
