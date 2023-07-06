@@ -1,32 +1,56 @@
 
- 
+ h1{
+    margin-left: 20px;
+ }
+
+
 
   input {
     border: 0;
     outline: 0;
-    border-bottom: 2px solid #03a8f45e;
+    border-bottom: 2px solid #0808085e;
     font-size: 1.4rem;
-    color: #ccc;
+    color: #191919;
     margin-left: 10px;
     margin-right: 20px;
+    
      
           
   }
 
   .identity{
     display: flex; 
+
      
   }
 
   .info{
     display: flex; 
-     
 
   }
+
+   ul{
+
+    list-style-type:none;
+   }
+
+   li{
+    display: flex; 
+
+   }
+
+   li label{
+    padding-top: 0px;
+    ;
+
+   }
 
   .gender{
     display: flex; 
+    
   }
+ 
+
   .gender input {
     margin-top: 20px;
 }
@@ -34,7 +58,30 @@
 
   label{
     padding-top: 20px;
-    padding-left: 20px;
+   
   
-    color: blue;
+ 
   }
+
+  .checkboxes{
+    display: flex;
+     
+ 
+  }
+
+  .checkboxes input{
+    padding: 0;
+  }
+
+  .checkboxes label{
+    padding: 0;
+  }
+
+
+.submit-form{
+    display: flex;
+    align-self: flex-start;
+    margin-top: 20px;
+}
+
+ 
